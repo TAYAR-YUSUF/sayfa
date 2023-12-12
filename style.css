@@ -1,0 +1,55 @@
+ {
+  margin: 0;
+  padding: 0;
+  font-family: "Hedvig Letters Serif", serif;
+}
+body {
+  font-family: 'Hedvig Letters Serif', serif;
+  margin: 0;
+  padding: 0;
+  position: relative; /* Body'nin pozisyonunu belirtiyoruz */
+}
+
+.arka-plan-resimli {
+  background-image: url('img.webp'); /* Resminizin dosya yolu */
+  background-size:cover; /* Resmi sayfanın tamamını kaplayacak şekilde ayarlar */
+  
+  background-repeat: no-repeat; /* Resmi tekrarlamaz */
+  width: 1535px; 
+  height: 747px;
+  }
+  .navbar {
+    height: 5vh;
+    width: 100%;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    }
+a
+{
+text-decoration: none;
+color: rgb(75, 3, 51);
+}
+h2
+{ 
+  cursor: pointer;
+  transition: 0.8s;
+}
+a:hover
+{
+color: brown;
+
+
+}
+
+h2:hover
+{
+  color: brown;
+  
+  
+  }
